@@ -75,7 +75,7 @@ export default function RegisterPage() {
           }));
         }
         // Redirect ke home
-        window.location.href = "/";
+        window.location.href = "/login";
       } else {
         const errorMsg = data.message || "Registration failed";
         console.log("❌ Registration failed:", errorMsg);
